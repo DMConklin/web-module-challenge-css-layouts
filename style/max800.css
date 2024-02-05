@@ -31,13 +31,3 @@ h2 {
 .caption nav {
     padding-bottom: 20%;
 }
-
-/* Footer */
-
-social {
-    display: none;
-}
-
-footer nav {
-    margin-inline: auto;
-}
