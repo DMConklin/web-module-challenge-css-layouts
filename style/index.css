@@ -1,6 +1,6 @@
 /* Layer declarations*/
 
-@layer reset, general, max800, max500;
+@layer reset, desktop, max800, max500;
 
 /* CSS Reset */
 
@@ -11,8 +11,8 @@
 @import url('max800.css') layer(max800) (max-width: 800px);
 @import url('max500.css') layer(max500) (max-width: 500px);
 
-/* General */
-@layer general {
+/* Desktop */
+@layer desktop {
     #container {
         max-width: 1280px;
         margin: 0 auto;
