@@ -1,0 +1,9 @@
+/* Header */
+
+nav {
+    flex-direction: column;
+}
+
+nav a {
+    text-align: center;
+}
