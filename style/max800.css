@@ -1,0 +1,43 @@
+/* Header */
+
+h2 {
+    font-size: 2rem;
+}
+
+#main {
+    width: 90%;
+    justify-content: space-between;
+}
+
+.featured {
+    margin-bottom: 5vw;
+}
+
+#main img:nth-child(n+2) {
+    width: 47%;
+    margin: 0 0 5vw 0;
+    max-height: 80vh;
+}
+
+.caption {
+    width: 100%;
+    height: fit-content;
+}
+
+.caption p {
+    padding-bottom: 0;
+}
+
+.caption nav {
+    padding-bottom: 20%;
+}
+
+/* Footer */
+
+social {
+    display: none;
+}
+
+footer nav {
+    margin-inline: auto;
+}
